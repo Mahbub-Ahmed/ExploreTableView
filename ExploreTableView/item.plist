@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>Apple</string>
+		<string>Strawberry</string>
+		<string>Avocado</string>
+		<string>Pear</string>
+		<string>Orange</string>
+		<string>Pineapple</string>
+	</array>
+	<array>
+		<string>BellPepper</string>
+		<string>Cauliflower</string>
+		<string>Tomato</string>
+		<string>Cabbage</string>
+		<string>Carrot</string>
+		<string>Potato</string>
+	</array>
+</array>
+</plist>

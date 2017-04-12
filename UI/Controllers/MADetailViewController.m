@@ -1,29 +1,30 @@
 //
-//  ViewController.m
+//  MADetailViewController.m
 //  ExploreTableView
 //
-//  Created by Mahbub Ahmed on 4/10/17.
+//  Created by Mahbub Ahmed on 4/2/17.
 //  Copyright © 2017 Mahbub Ahmed. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MADetailViewController.h"
 
-@interface ViewController ()
+@interface MADetailViewController ()
 
 @end
 
-@implementation ViewController
+@implementation MADetailViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    //Setting the passed item name as detail view controller itemName 
+    _itemName.text=_item;
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 
 @end

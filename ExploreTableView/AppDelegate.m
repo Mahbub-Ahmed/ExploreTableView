@@ -2,11 +2,12 @@
 //  AppDelegate.m
 //  ExploreTableView
 //
-//  Created by Mahbub Ahmed on 4/10/17.
+//  Created by Mahbub Ahmed on 4/1/17.
 //  Copyright © 2017 Mahbub Ahmed. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "MAHomeViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    MAHomeViewController *homeViewController =[[MAHomeViewController alloc]initWithNibName:@"MAHomeViewController" bundle:nil];
+    
+    UINavigationController *navController = [[UINavigationController alloc]initWithRootViewController:homeViewController];
+    
+    self.window.rootViewController = navController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
